@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CollegeTour</class>
+ <widget class="QWidget" name="CollegeTour">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1076</width>
+    <height>685</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="CollegeTourStackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>1061</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 217, 159);</string>
+   </property>
+   <widget class="QWidget" name="CollegeTourPage">
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>400</y>
+       <width>201</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="TotalPricelabel">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 167, 124);</string>
+        </property>
+        <property name="text">
+         <string>Total $0</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ViewCheckoutButton">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 167, 124);</string>
+        </property>
+        <property name="text">
+         <string>View Shopping Cart</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="CollegeNamelabel">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>10</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(83, 167, 124);</string>
+     </property>
+     <property name="text">
+      <string>Collge Name</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="NextCollegeButton">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>580</y>
+       <width>411</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(83, 167, 124);</string>
+     </property>
+     <property name="text">
+      <string>Next College</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>411</width>
+       <height>431</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QListWidget" name="ShoppingCartList">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 167, 124);</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="DeleteItemButton">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(83, 167, 124);</string>
+        </property>
+        <property name="text">
+         <string>Delete Item</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="TripDistancelabel">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>431</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(83, 167, 124);</string>
+     </property>
+     <property name="text">
+      <string>Trip Distance: 0 miles</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="SouvenirsGroupBox">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>120</y>
+       <width>411</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(83, 167, 124);</string>
+     </property>
+     <property name="title">
+      <string>Souvenirs:</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>391</width>
+        <height>421</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout_3"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="BackTMainButton">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>30</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(83, 167, 124);</string>
+     </property>
+     <property name="text">
+      <string>Main Page</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
