@@ -1,0 +1,57 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan and Logan Blakeborough
+*  STUDENT IDs   : 1022520 and 1124436
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  LAB #1        : Vector
+*****************************************************
+
+Sorted random numbers:
+300
+250
+143
+179
+183
+231
+245
+311
+356
+479
+540
+712
+741
+866
+905
+
+Sorted random numbers but the digits are reversed:
+30
+052
+341
+971
+381
+132
+542
+113
+653
+974
+045
+217
+147
+668
+509
+
+The Sum of the digits of the random numbers:
+The sum of the digits of 300 is 3
+The sum of the digits of 250 is 7
+The sum of the digits of 143 is 8
+The sum of the digits of 179 is 17
+The sum of the digits of 183 is 12
+The sum of the digits of 231 is 6
+The sum of the digits of 245 is 11
+The sum of the digits of 311 is 5
+The sum of the digits of 356 is 14
+The sum of the digits of 479 is 20
+The sum of the digits of 540 is 9
+The sum of the digits of 712 is 10
+The sum of the digits of 741 is 12
+The sum of the digits of 866 is 20
+The sum of the digits of 905 is 14

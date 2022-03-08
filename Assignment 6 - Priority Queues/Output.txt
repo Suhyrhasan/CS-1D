@@ -1,0 +1,58 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #6 : Priority Queues
+*****************************************************
+
+This program will test both priority queues with the following data
+ assuming that the priority queue is built at noon and Doctor DoGood
+is the only doctor on duty. Each patient requires 25 minutes of care.
+The patient who waited the longest has the highest priority unless
+there is a life-threatening scenario. Determine the order in which the
+patients will be treated. You will need to create a timer. In the end
+the program will output the time each appointment starts and ends.
+
+                                            EMERGENCY ROOM -> USING THE STL
+========================================================================================================================
+Name:                            Wait Time (Hours):              Start:                     End: 
+------------------------------------------------------------------------------------------------------------------------
+Alice Ailment                          7                        12: 00 PM                12: 25 PM
+
+Tom Temperature                        6                        12: 25 PM                12: 50 PM
+
+Bob Bleeding                           5                        12: 50 PM                01: 40 PM
+
+Sam Sneezing                  <<LIFE THREATNING>>               01: 14 PM                01: 39 PM
+
+Paula Pain                             4                        01: 40 PM                02: 05 PM
+
+Frank Feelingbad                       3                        02: 05 PM                02: 30 PM
+
+Cathy Coughing                         2                        02: 30 PM                02: 55 PM
+
+Irene Ill                              1                        02: 55 PM                03: 45 PM
+
+Sid Sickley                   <<LIFE THREATNING>>               03: 01 PM                03: 26 PM
+
+                                     EMERGENCY ROOM -> USING CUSTOM PRIORITY QUEUE
+========================================================================================================================
+Name:                          Wait Time (Hours):                Start:                     End: 
+------------------------------------------------------------------------------------------------------------------------
+Alice Ailment                          7                        12: 00 PM                12: 25 PM
+
+Tom Temperature                        6                        12: 25 PM                12: 50 PM
+
+Bob Bleeding                           5                        12: 50 PM                01: 40 PM
+
+Sam Sneezing                  <<LIFE THREATNING>>               01: 14 PM                01: 39 PM
+
+Paula Pain                             4                        01: 40 PM                02: 05 PM
+
+Frank Feelingbad                       3                        02: 05 PM                02: 30 PM
+
+Cathy Coughing                         2                        02: 30 PM                02: 55 PM
+
+Irene Ill                              1                        02: 55 PM                03: 45 PM
+
+Sid Sickley                   <<LIFE THREATNING>>               03: 01 PM                03: 26 PM

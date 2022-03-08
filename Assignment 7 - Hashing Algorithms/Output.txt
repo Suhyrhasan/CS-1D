@@ -1,0 +1,76 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #7 : Hashing Algorithms
+*****************************************************
+
+This program will take the given key value pairs and
+stores them inside a hash map using either double hashing
+or quadratic hashing.
+
+***************************
+  Hash Map Double Hashing  
+***************************
+Index:  0  Key: 29 Value: Dana Point
+Index:  1  Key: 88 Value: El Segundo
+Index:  2  Key: 31 Value: Los Angeles
+Index:  3  Key: 32 Value: San Diego
+Index:  4  Key: 62 Value: Laguna Hills
+Index:  5  EMPTY
+Index:  6  Key: 35 Value: Tustin
+Index:  7  Key: 60 Value: Santa Ana
+Index:  8  EMPTY
+Index:  9  EMPTY
+Index: 10  EMPTY
+Index: 11  Key: 11 Value: La Jolla
+Index: 12  Key: 99 Value: San Juan
+Index: 13  Key: 42 Value: Vista
+Index: 14  Key: 72 Value: Palms Springs
+Index: 15  EMPTY
+Index: 16  Key: 103 Value: Oceanside
+Index: 17  Key: 17 Value: Orange
+Index: 18  Key: 18 Value: Del Mar
+Index: 19  Key: 19 Value: Brea
+Index: 20  Key: 49 Value: San Diego
+Index: 21  EMPTY
+Index: 22  Key: 22 Value: Aliso Viejo
+Index: 23  Key: 41 Value: San Clemente
+Index: 24  EMPTY
+Index: 25  EMPTY
+Index: 26  EMPTY
+Index: 27  EMPTY
+Index: 28  EMPTY
+
+******************************
+  Hash Map Quadratic Hashing  
+******************************
+Index:  0  Key: 29 Value: Dana Point
+Index:  1  Key: 88 Value: El Segundo
+Index:  2  Key: 31 Value: Los Angeles
+Index:  3  Key: 32 Value: San Diego
+Index:  4  Key: 62 Value: Laguna Hills
+Index:  5  EMPTY
+Index:  6  Key: 60 Value: Santa Ana
+Index:  7  Key: 35 Value: Tustin
+Index:  8  EMPTY
+Index:  9  EMPTY
+Index: 10  EMPTY
+Index: 11  Key: 11 Value: La Jolla
+Index: 12  Key: 99 Value: San Juan
+Index: 13  Key: 42 Value: Vista
+Index: 14  Key: 72 Value: Palms Springs
+Index: 15  Key: 44 Value: Irvine
+Index: 16  Key: 103 Value: Oceanside
+Index: 17  Key: 17 Value: Orange
+Index: 18  Key: 18 Value: Del Mar
+Index: 19  Key: 19 Value: Brea
+Index: 20  Key: 49 Value: San Diego
+Index: 21  Key: 41 Value: San Clemente
+Index: 22  Key: 22 Value: Aliso Viejo
+Index: 23  EMPTY
+Index: 24  EMPTY
+Index: 25  EMPTY
+Index: 26  EMPTY
+Index: 27  EMPTY
+Index: 28  EMPTY

@@ -1,0 +1,128 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #8 : Dictionary - Skip List
+*****************************************************
+
+This program will develop software to implement a dictionary
+using a skip list. Then it will identify the output of pseudo
+random number generator that was used (true or false).
+
+Inserting: 18, 41, 22, 44
+Erasing 18
+Inserting: 58, 32, 49
+Erasing 58
+Inserting: 31, 17, 72, 41
+Erasing 49
+Inserting: 19, 60, 35, 103, 11, 18, 22, 49
+Erasing 41
+Inserting: 42, 49, 99, 29, 88, 41, 62
+
+----------
+value: La Jolla            key: 11        level: 1         []
+value: Orange              key: 17        level: 2         [][]
+value: Del Mar             key: 18        level: 1         []
+value: Brea                key: 19        level: 3         [][][]
+value: Aliso Viejo         key: 22        level: 5         [][][][][]
+value: Laguna Niguel       key: 22        level: 1         []
+value: Dana Point          key: 29        level: 2         [][]
+value: Los Angeles         key: 31        level: 4         [][][][]
+value: San Diego           key: 32        level: 1         []
+value: Tustin              key: 35        level: 1         []
+value: San Clemente        key: 41        level: 9         [][][][][][][][][]
+value: Mission Viejo       key: 41        level: 2         [][]
+value: Vista               key: 42        level: 2         [][]
+value: Irvine              key: 44        level: 3         [][][]
+value: San Diego           key: 49        level: 3         [][][]
+value: Laguna Beach        key: 49        level: 1         []
+value: Santa Ana           key: 60        level: 4         [][][][]
+value: Laguna Hills        key: 62        level: 1         []
+value: Palms Springs       key: 72        level: 4         [][][][]
+value: El Segundo          key: 88        level: 2         [][]
+value: San Juan            key: 99        level: 1         []
+value: Oceanside           key: 103       level: 4         [][][][]
+
+----------
+
+----------
+level: 15        
+level: 14        
+level: 13        
+level: 12        
+level: 11        
+level: 10        
+level: 9         
+level: 8         
+          value: San Clemente                  key: 41        
+level: 7         
+          value: San Clemente                  key: 41        
+level: 6         
+          value: San Clemente                  key: 41        
+level: 5         
+          value: San Clemente                  key: 41        
+level: 4         
+          value: Aliso Viejo                   key: 22        
+          value: San Clemente                  key: 41        
+level: 3         
+          value: Aliso Viejo                   key: 22        
+          value: Los Angeles                   key: 31        
+          value: San Clemente                  key: 41        
+          value: Santa Ana                     key: 60        
+          value: Palms Springs                 key: 72        
+          value: Oceanside                     key: 103       
+level: 2         
+          value: Brea                          key: 19        
+          value: Aliso Viejo                   key: 22        
+          value: Los Angeles                   key: 31        
+          value: San Clemente                  key: 41        
+          value: Irvine                        key: 44        
+          value: San Diego                     key: 49        
+          value: Santa Ana                     key: 60        
+          value: Palms Springs                 key: 72        
+          value: Oceanside                     key: 103       
+level: 1         
+          value: Orange                        key: 17        
+          value: Brea                          key: 19        
+          value: Aliso Viejo                   key: 22        
+          value: Dana Point                    key: 29        
+          value: Los Angeles                   key: 31        
+          value: San Clemente                  key: 41        
+          value: Mission Viejo                 key: 41        
+          value: Vista                         key: 42        
+          value: Irvine                        key: 44        
+          value: San Diego                     key: 49        
+          value: Santa Ana                     key: 60        
+          value: Palms Springs                 key: 72        
+          value: El Segundo                    key: 88        
+          value: Oceanside                     key: 103       
+level: 0         
+          value: La Jolla                      key: 11        
+          value: Orange                        key: 17        
+          value: Del Mar                       key: 18        
+          value: Brea                          key: 19        
+          value: Aliso Viejo                   key: 22        
+          value: Laguna Niguel                 key: 22        
+          value: Dana Point                    key: 29        
+          value: Los Angeles                   key: 31        
+          value: San Diego                     key: 32        
+          value: Tustin                        key: 35        
+          value: San Clemente                  key: 41        
+          value: Mission Viejo                 key: 41        
+          value: Vista                         key: 42        
+          value: Irvine                        key: 44        
+          value: San Diego                     key: 49        
+          value: Laguna Beach                  key: 49        
+          value: Santa Ana                     key: 60        
+          value: Laguna Hills                  key: 62        
+          value: Palms Springs                 key: 72        
+          value: El Segundo                    key: 88        
+          value: San Juan                      key: 99        
+          value: Oceanside                     key: 103       
+
+----------
+Find value by key 41
+Resulting value: San Clemente
+
+Calling size() method
+Resulting value: 22

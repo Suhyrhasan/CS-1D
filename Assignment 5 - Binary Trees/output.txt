@@ -1,0 +1,35 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #5 : Binary Trees
+*****************************************************
+
+ This program will implement a binary tree using an (array, vector
+ or linked list) and store a certain number of elements using the
+ properties of a binary search tree. Then it will perform the in
+ order,post-order, pre-order, breadth-first traversals. In addition
+ to the traversals, the program will print out the binary tree by
+ level and how the parent-child relationship for all the nodes of
+ the tree.
+
+
+In-order traversal of binary tree is 
+9->12->13->18->19->24->25->33->44->49->55->59->88->89->109->118->288->888->1001->
+
+Post-order traversal of binary tree is 
+9->12->18->13->24->19->49->44->33->55->88->89->118->109->1001->888->288->59->25->
+
+Pre-order traversal of binary tree is 
+25->19->13->12->9->18->24->59->55->33->44->49->288->109->89->88->118->888->1001->
+
+Breadth-first traversal of binary tree is 
+25 19 59 13 24 55 288 12 18 33 109 888 9 44 89 118 1001 49 88 
+
+Draw the binary search tree (level ,relations )
+25 
+19 59 
+13 24 55 288 
+12 18 33 109 888 
+9 44 89 118 1001 
+49 88 

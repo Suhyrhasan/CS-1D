@@ -1,0 +1,71 @@
+***************************************************************************
+*  PROGRAMMED BY : Suhyr Hasan and Tanner Cordero, and Danin Namiranian
+*  STUDENT IDs   : 1022520, 1084772, and 1081970 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #11: DFS and BFS Directed Edges
+***************************************************************************
+
+This program will implement Dijkstra’s to find the shortest distance
+from Dallas to the cities on the map below and identify paths and
+the corresponding distance.Then the program will determine the MST
+and identify edges and total mileage
+
++++++++++++++++++++++++++++++++++++++++++++++
+  Building graphs and performing DIJKSTRA'S 
+       shortest distance from DALLAS  
++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Vertex: LOS ANGELES   ----> Distance: 1435
+
+Vertex: SAN FRANCISCO ----> Distance: 1816
+
+Vertex: SEATTLE       ----> Distance: 2426
+
+Vertex: DENVER        ----> Distance: 1095
+
+Vertex: HOUSTON       ----> Distance: 239
+
+Vertex: DALLAS        ----> Distance: 0
+
+Vertex: KANSAS CITY   ----> Distance: 496
+
+Vertex: CHICAGO       ----> Distance: 1029
+
+Vertex: MIAMI         ----> Distance: 1426
+
+Vertex: ATLANTA       ----> Distance: 781
+
+Vertex: NEW YORK      ----> Distance: 1669
+
+Vertex: BOSTON        ----> Distance: 1883
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++
+  Finding minimum spanning tree using PRIM 
+          printing out edges of MST        
++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+LOS ANGELES     ----> SAN FRANCISCO DISTANCE: 381
+
+SAN FRANCISCO   ----> SEATTLE DISTANCE: 807
+
+LOS ANGELES     ----> DENVER DISTANCE: 1015
+
+DALLAS          ----> HOUSTON DISTANCE: 239
+
+KANSAS CITY     ----> DALLAS DISTANCE: 496
+
+DENVER          ----> KANSAS CITY DISTANCE: 599
+
+KANSAS CITY     ----> CHICAGO DISTANCE: 533
+
+ATLANTA         ----> MIAMI DISTANCE: 661
+
+DALLAS          ----> ATLANTA DISTANCE: 781
+
+CHICAGO         ----> NEW YORK DISTANCE: 787
+
+NEW YORK        ----> BOSTON DISTANCE: 214
+
+TOTAL DISTANCE: 6513
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -1,0 +1,20 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #1 : Recursive
+*****************************************************
+
+This program will use a recursive function that takes
+a string as an argument and returns a TRUE if the
+string is a palindrome otherwise FALSE is returned.
+
+      A man a plan a canal Panama : TRUE.
+                The rain in Spain : FALSE.
+               No lemon, no melon : TRUE.
+                            radar : TRUE.
+                             CS1D : FALSE.
+              Was it a cat I saw? : TRUE.
+                          Racecar : TRUE.
+                       Saddleback : FALSE.
+                       

@@ -1,0 +1,51 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan and Tanner Cordero and Danin Namiranian
+*  STUDENT IDs   : 1022520 and 1084772 and 1081970  
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #11: DFS and BFS Directed Edges
+*****************************************************
+
+This program will show the implementation of a directed
+graph and traversals breadth first and depth first. This
+will demonstrate knowledge of graphs and functions that
+enable the graph ADT
+
+This is the adjacency matrix: 
+	A             B             C             D             E             F             H             
+A             -             7             12            9             -             -             -             
+B             7             -             6             1             -             -             -             
+C             12            6             -             -             5             11            -             
+D             9             1             -             -             10            -             3             
+E             -             -             5             10            -             4             2             
+F             -             -             11            -             4             -             8             
+H             -             -             -             3             2             8             -             
+
+Implementing DFS... starting at Denver
+Discovery edge: A              ---> B              7         
+Discovery edge: B              ---> D              1         
+Discovery edge: D              ---> H              3         
+Discovery edge: H              ---> E              2         
+Discovery edge: E              ---> F              4         
+Discovery edge: F              ---> C              11        
+Total mileage gone: 28
+
+Implementing BFS... starting at Denver
+Discovery edge: A               -->  B               7          
+Discovery edge: A               -->  D               9          
+Discovery edge: A               -->  C               12         
+
+Cross Edge: 
+A -->B 
+
+Cross Edge: 
+B -->D 
+Discovery edge: D               -->  H               3          
+Discovery edge: D               -->  E               10         
+
+Forward Edge: 
+D -->C 
+Discovery edge: C               -->  F               11         
+
+Forward Edge: 
+C -->H 
+Total distance traveled: 52

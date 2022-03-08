@@ -1,0 +1,18 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan and Carissa Happeny
+*  STUDENT IDs   : 1022520 and 1123318
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  LAB #3        : PrefixAverages
+*****************************************************
+
+This program implements prefixAverages1 and prefixAverages2
+and perform an experimental analysis of their running time 
+using multiple array sizes.
+
+1st Array : 1 2 3 4 5 6 7 8 9 10 
+It took the program 0.0000003493 seconds to run prefixAverages1()
+It took the program 0.0000001795 seconds to run prefixAverages2()
+
+2nd Array : 11 12 13 14 15 16 17 18 19 20 
+It took the program 0.0000002901 seconds to run prefixAverages1()
+It took the program 0.0000001587 seconds to run prefixAverages2()

@@ -1,0 +1,120 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #3 : Stacks/Queues/Deques
+*****************************************************
+
+This program will follow 9 steps.
+
+Part A:
+Name:  Bryan
+Name:  JoAnn
+Name:  Eric
+Name:  Jordyn
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 8.445
+Float: 123.123
+Float: 200.12
+Float: 888.55
+Float: 44.44
+Float: 2019.1
+
+Part B:
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 888.55
+Float: 44.44
+Float: 2019.1
+
+Part C:
+Name:  Bryan
+Name:  JoAnn
+Name:  Eric
+Name:  Jordyn
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 8.445
+Float: 123.123
+Float: 200.12
+Float: 888.55
+Float: 44.44
+Float: 2019.1
+
+Part D:
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 888.55
+Float: 44.44
+Float: 2019.1
+
+Part E:
+Name:  Bryan
+Name:  JoAnn
+Name:  Eric
+Name:  Jordyn
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 8.445
+Float: 123.123
+Float: 200.12
+Float: 888.55
+Float: 44.44
+Float: 2019.1
+
+Part F:
+Name:  Eric
+Name:  Jordyn
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 888.55
+Float: 44.44
+Float: 2019.1
+
+Part G:
+Name:  Bryan
+Name:  JoAnn
+Name:  Eric
+Name:  Jordyn
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 2019.1
+Float: 44.44
+Float: 888.55
+Float: 200.12
+Float: 123.123
+Float: 8.445
+
+Part H:
+Name:  Eric
+Name:  Jordyn
+Name:  Jennifer
+Name:  Alan
+Name:  Mark
+
+Float: 2019.1
+Float: 44.44
+Float: 888.55
+
+Part I: 
+{2x+5}(6x+4) is Balanced
+{2x+7)(12x+6) is Not Balanced
+{{8x+5)-5x[9x+3]}) is Not Balanced
+(((4x+8)-x[4x+3]))) is Not Balanced
+[(5x-5)-4x[6x+2]] is Balanced
+{(8x+5)-6x[9x+3]] is Not Balanced

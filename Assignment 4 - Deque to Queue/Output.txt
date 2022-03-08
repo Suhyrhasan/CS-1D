@@ -1,0 +1,30 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan 
+*  STUDENT IDs   : 1022520 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #4 : Deque to Queue
+*****************************************************
+
+This program will create and test all the member functions
+(Enqueue(), Dequeue(), Empty(), Front(), and Size() of the
+queue class.
+
+Part One - Enqueue()
+Adding String: A man, a plan, a canal, Panama
+Adding String: Was it a car or a cat I saw?
+Adding String: Sit on a potato pan, Otis
+Adding String: No lemon, no melon
+
+Part Two - Dequeue()
+DEQUEUEING
+String: A man, a plan, a canal, Panama
+
+Part Three - Empty()
+The QUEUE is NOT empty!
+
+Part Four - Front()
+The first string in the queue is:
+String: Was it a car or a cat I saw?
+
+Part Five - Size()
+There are 3 people on the queue. 

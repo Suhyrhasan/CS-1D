@@ -1,0 +1,85 @@
+*****************************************************
+*  PROGRAMMED BY : Suhyr Hasan and Tanner Cordero
+*  STUDENT IDs   : 1022520 and 1084772 
+*  CLASS         : CS1D - MW - 2:30pm - 4:50pm
+*  ASSIGNMENT #10: BFS, DFS
+*****************************************************
+
+This program will show the implementation of a graph
+and traversals breadth first and depth first. This will
+demonstrate knowledge of graphs and functions that enables
+the graph ADT
+
+This is the adjacency matrix: 
+	       Seattle     Chicago  Boston   New York  Atlanta    Miami    Houston    Dallas  Kansas City Denver San Francisco Los Angeles
+Seattle       -         2097      -         -         -         -         -         -         -         1331      807       -         
+Chicago       2097      -         983       787       -         -         -         -         533       1003      -         -         
+Boston        -         983       -         214       -         -         -         -         -         -         -         -         
+New York      -         787       214       -         888       -         -         -         1260      -         -         -         
+Atlanta       -         -         -         888       -         661       810       781       864       -         -         -         
+Miami         -         -         -         -         661       -         1187      -         -         -         -         -         
+Houston       -         -         -         -         810       1187      -         239       -         -         -         -         
+Dallas        -         -         -         -         781       -         239       -         496       -         -         1435      
+Kansas City   -         533       -         1260      864       -         -         496       -         599       -         1663      
+Denver        1331      1003      -         -         -         -         -         -         599       -         1267      1015      
+San Francisco 807       -         -         -         -         -         -         -         -         1267      -         381       
+Los Angeles   -         -         -         -         -         -         -         1435      1663      1015      381       -         
+
+Implementing DFS... starting at Chicago
+Discovery edge: Chicago    --->Kansas City533   
+Discovery edge: Kansas City--->Dallas     496   
+Discovery edge: Dallas     --->Houston    239   
+Discovery edge: Houston    --->Atlanta    810   
+Discovery edge: Atlanta    --->Miami      661   
+Back Edge: Miami
+Back Edge: Atlanta
+Discovery edge: Atlanta    --->New York   888   
+Discovery edge: New York   --->Boston     214   
+Back Edge: Miami
+Back Edge: Atlanta
+Back Edge: Houston
+Back Edge: Dallas
+Discovery edge: Dallas     --->Los Angeles1435  
+Discovery edge: Los Angeles--->San Francisco381   
+Discovery edge: San Francisco--->Seattle    807   
+Discovery edge: Seattle    --->Denver     1331  
+The total distance traveled on the discovery edges for the DFS: 7795
+
+
+Implementing BFS... starting at Chicago
+Discovery edge: Chicago     -->Kansas City 533    
+Discovery edge: Chicago     -->New York    787    
+Discovery edge: Chicago     -->Boston      983    
+Discovery edge: Chicago     -->Denver      1003   
+Discovery edge: Chicago     -->Seattle     2097   
+
+Cross Edge: 
+Chicago -->Kansas City 
+Discovery edge: Kansas City -->Dallas      496    
+Discovery edge: Kansas City -->Atlanta     864    
+Discovery edge: Kansas City -->Los Angeles 1663   
+
+Cross Edge: 
+Kansas City -->New York 
+
+Cross Edge: 
+New York -->Boston 
+
+Cross Edge: 
+Boston -->Denver 
+Discovery edge: Denver      -->San Francisco 1267   
+
+Cross Edge: 
+Denver -->Seattle 
+
+Cross Edge: 
+Seattle -->Dallas 
+Discovery edge: Dallas      -->Houston     239    
+
+Cross Edge: 
+Dallas -->Atlanta 
+Discovery edge: Atlanta     -->Miami       661    
+
+Cross Edge: 
+Atlanta -->Los Angeles 
+The total distance traveled on the discovery edges for the BFS: 10593
